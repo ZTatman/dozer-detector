@@ -1,0 +1,29 @@
+{
+  "name": "dozer-detector-tfjs-demo",
+  "version": "0.1.0",
+  "description": "Modernized browser demo for the recovered dozer detector TFJS model.",
+  "main": "index.js",
+  "author": "Zach Tatman",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "staticFiles": {
+    "staticPath": "static",
+    "watcherGlob": "**"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.8.3",
+    "vite": "^7.3.1"
+  }
+}

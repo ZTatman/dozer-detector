@@ -1,0 +1,356 @@
+:root {
+  color: #182024;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #f4f1ea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.topbar {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin: 0 auto 20px;
+  max-width: 1360px;
+}
+
+.eyebrow {
+  color: #687277;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 4px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 34px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.subtitle {
+  color: #687277;
+  font-size: 14px;
+  margin: 6px 0 0;
+}
+
+.status {
+  background: #182024;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 700;
+  min-width: 160px;
+  padding: 10px 14px;
+  text-align: center;
+}
+
+.workspace {
+  align-items: start;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  margin: 0 auto;
+  max-width: 1360px;
+}
+
+.stage {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  min-width: 0;
+}
+
+.stage-panel {
+  background: #ffffff;
+  border: 1px solid #d8d5cc;
+  border-radius: 8px;
+  margin: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.stage-panel figcaption {
+  background: #182024;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 10px 12px;
+}
+
+#previewCanvas,
+#preprocessCanvas {
+  aspect-ratio: 4 / 3;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.camera-video {
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  width: 1px;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #d8d5cc;
+  border-radius: 8px;
+  display: grid;
+  gap: 18px;
+  padding: 18px;
+}
+
+.control-group {
+  display: grid;
+  gap: 8px;
+}
+
+.control-group label {
+  align-items: center;
+  display: inline-flex;
+}
+
+.preprocess-controls {
+  border-top: 1px solid #ebe8df;
+  display: grid;
+  gap: 14px;
+  padding-top: 16px;
+}
+
+.preprocess-heading {
+  align-items: center;
+  color: #4e5a60;
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+  font-weight: 800;
+  gap: 8px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.preprocess-heading input {
+  accent-color: #d38b18;
+  height: 16px;
+  margin: 0;
+  width: 16px;
+}
+
+label {
+  color: #4e5a60;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+select,
+input[type="range"] {
+  width: 100%;
+}
+
+input[type="range"]:disabled {
+  opacity: 0.45;
+}
+
+select {
+  border: 1px solid #c7c2b7;
+  border-radius: 6px;
+  padding: 10px 12px;
+}
+
+output {
+  color: #687277;
+  font-size: 13px;
+}
+
+.tooltip-trigger {
+  align-items: center;
+  background: #c7c2b7;
+  border-radius: 50%;
+  color: #fff;
+  cursor: help;
+  display: inline-flex;
+  font-size: 10px;
+  font-weight: 700;
+  height: 14px;
+  justify-content: center;
+  margin-left: 4px;
+  position: relative;
+  width: 14px;
+}
+
+.tooltip-trigger .tooltip {
+  background: #182024;
+  border-radius: 4px;
+  bottom: calc(100% + 6px);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+  left: 50%;
+  line-height: 1.4;
+  opacity: 0;
+  padding: 6px 8px;
+  pointer-events: none;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: opacity 0.15s;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.tooltip-trigger:hover .tooltip {
+  opacity: 1;
+}
+
+.detection-controls {
+  border-top: 1px solid #ebe8df;
+  display: grid;
+  gap: 14px;
+  padding-top: 16px;
+}
+
+.detection-heading {
+  color: #4e5a60;
+  font-size: 13px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.detection-note {
+  color: #8e9599;
+  font-size: 12px;
+  margin: 0;
+}
+
+.metrics {
+  border-top: 1px solid #ebe8df;
+  display: grid;
+  gap: 12px;
+  padding-top: 16px;
+}
+
+.metrics div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.metrics span {
+  color: #687277;
+}
+
+.metrics strong {
+  color: #182024;
+}
+
+button {
+  background: #d38b18;
+  border: 0;
+  border-radius: 6px;
+  color: #111;
+  cursor: pointer;
+  font-weight: 800;
+  padding: 12px 14px;
+}
+
+.secondary-button {
+  background: #ffffff;
+  border: 1px solid #c7c2b7;
+  color: #182024;
+}
+
+.secondary-button:hover:not(:disabled) {
+  background: #f4f1ea;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #e8e5dc 25%, #f0ede4 37.5%, #e8e5dc 50%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+.canvas-skeleton {
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(90deg, #e8e5dc 25%, #f0ede4 37.5%, #e8e5dc 50%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  width: 100%;
+}
+
+.skeleton-panel {
+  gap: 14px;
+}
+
+.skeleton-block {
+  background: linear-gradient(90deg, #e8e5dc 25%, #f0ede4 37.5%, #e8e5dc 50%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: 4px;
+}
+
+.skeleton-button {
+  border-radius: 6px;
+  height: 44px;
+}
+
+.skeleton-metrics {
+  display: grid;
+  gap: 12px;
+}
+
+.skeleton-metrics-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .app-shell {
+    padding: 16px;
+  }
+
+  .topbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .stage {
+    grid-template-columns: 1fr;
+  }
+}

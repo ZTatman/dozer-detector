@@ -1,0 +1,33 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated data and large local inputs
+dataset/
+dataset_smoke/
+dataset_blender*/
+val2017*.zip
+data/external/*
+!data/external/README.md
+*.record
+data/captures/blender_generated/
+
+# Large optional local 3D assets
+blender/*.blend
+models/*
+!models/README.md
+
+# Optional experiments
+trellis_inputs/
+*.avif
+*.glb
+*.gltf
+*.obj
+*.fbx
+
+# Web demo dependencies/builds
+demo/tfjs/node_modules/
+demo/tfjs/dist/
+demo/tfjs/dist-modern/
+demo/tfjs/.vite/

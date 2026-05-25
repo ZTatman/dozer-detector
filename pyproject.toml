@@ -1,0 +1,17 @@
+[project]
+name = "dozer-detector-recovery"
+version = "0.1.0"
+description = "Recovered synthetic-data bulldozer object detection project."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pillow>=10.0",
+  "ipython>=8.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
