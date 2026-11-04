@@ -1,1 +1,41 @@
-IyBIaXN0b3JpY2FsIEFzc2V0IEV2YWx1YXRpb24gUmVzdWx0cwoKRGF0ZTogMjAyNi0xMS0wNApNZXRob2Q6IGBub3RlYm9va3MvMDJfZXZhbHVhdGVfaGlzdG9yaWNhbF9hc3NldHMuaXB5bmJgIGV4ZWN1dGVkIGVuZCB0byBlbmQKKGFsbCAzIGNvZGUgY2VsbHMgcmFuIHdpdGhvdXQgZXJyb3JzLCBvdXRwdXRzIHNhdmVkIGluIHRoZSBub3RlYm9vayksIHBsdXMKZGlyZWN0IGluc3BlY3Rpb24gb2YgdGhlIG1vZGVsIGZpbGVzLiBFdmVyeXRoaW5nIGJlbG93IHdhcyBvYnNlcnZlZCBpbiB0aGF0CnJ1bjsgbm8gZGV0ZWN0aW9uIGFjY3VyYWN5IGlzIGNsYWltZWQsIGJlY2F1c2Ugbm8gbGFiZWxlZCBldmFsdWF0aW9uIHNldCBmcm9tCnRoZSBvcmlnaW5hbCBwcm9qZWN0IHN1cnZpdmVzLgoKIyMgVGVuc29yRmxvdy5qcyBtb2RlbCAoYGRlbW8vdGZqcy96YWNoX21vZGVsL2ApCgotIGBtb2RlbC5qc29uYCBmb3JtYXQ6IGBncmFwaC1tb2RlbGAKLSBnZW5lcmF0ZWRCeTogVGVuc29yRmxvdyAyLjMuMAotIGNvbnZlcnRlZEJ5OiBUZW5zb3JGbG93LmpzIENvbnZlcnRlciB2Mi4xLjAKLSB3ZWlnaHRzTWFuaWZlc3Q6IDEgZW50cnksIDUgc2hhcmQgcGF0aHMKICAoYGdyb3VwMS1zaGFyZDFvZjUuYmluYCDigKYgYGdyb3VwMS1zaGFyZDVvZjUuYmluYCksIGFsbCBwcmVzZW50Ci0gNDY4IHdlaWdodCB0ZW5zb3JzIGRlY2xhcmVkIGluIHRoZSBtYW5pZmVzdAotIFNoYXJkIHNpemVzOiA0IHNoYXJkcyBvZiA0LDE5NCwzMDQgYnl0ZXMgKyAxIHNoYXJkIG9mIDEsNjIzLDc1MiBieXRlcwogICgxOCw0MDAsOTY4IGJ5dGVzIHRvdGFsLCB+MTcuNSBNaUIpCi0gVGhlIG1vZGVybiBkZW1vIGluIGBkZW1vL3RmanNgIGJ1aWxkcyBhZ2FpbnN0IHRoZXNlIGFzc2V0cwogIChgbnBtIHJ1biBidWlsZGAgcGFzc2VzLCB2ZXJpZmllZCAyMDI2LTExLTA0KQoKIyMgSGlzdG9yaWNhbCBUZW5zb3JGbG93IGFydGlmYWN0CgotIGBhcnRpZmFjdHMvaGlzdG9yaWNhbC10ZW5zb3JmbG93L2Zyb3plbl9pbmZlcmVuY2VfZ3JhcGhfMTAway5wYmA6CiAgMTksMTU2LDg3NCBieXRlcyAofjE5IE1CKSwgc2hhMjU2IHByZWZpeCBgYjRkMTUxNTEzMzdkNDAzYWAKLSBLZXB0IGFzIHByb3ZlbmFuY2UgZm9yIHRoZSBvcmlnaW5hbCBUZW5zb3JGbG93IE9iamVjdCBEZXRlY3Rpb24gQVBJIG1vZGVsOwogIHRoZSBicm93c2VyIGRlbW8gdXNlcyB0aGUgVEZKUyBleHBvcnQgYWJvdmUsIG5vdCB0aGlzIGZpbGUuCgojIyBSZWZlcmVuY2UgcGhvdG9zCgotIGBkZW1vL3RmanMvc3RhdGljL2ltZ18yNDQ0LmpwZ2AsIGBkb3plcl96YWNoLmpwZ2AsIGFuZCBgZG96ZXIyLmpwZ2AgYWxsCiAgZXhpc3QgYW5kIHJlbmRlciAoZGlzcGxheWVkIGJ5IHRoZSBub3RlYm9vayBkdXJpbmcgdGhlIHJ1bikuIFRoZXkgZG9jdW1lbnQKICB0aGUgbGlrZWx5IHBoeXNpY2FsIG1vZGVsOyB0aGV5IGFyZSBub3QgYSBwaG90b2dyYW1tZXRyeSBzZXQuCgojIyBXaGF0IHRoaXMgZXZhbHVhdGlvbiBkb2VzIG5vdCBlc3RhYmxpc2gKCi0gTm8gbUFQIG9yIGFjY3VyYWN5IGZpZ3VyZTogdGhlIG9yaWdpbmFsIGxhYmVsZWQgZGF0YXNldCBpcyBsb3N0LCBhbmQgdGhlCiAgcmVnZW5lcmF0ZWQgY29tcG9zaXRlIGRhdGFzZXQgKHNlZSBgZG9jcy9kYXRhc2V0LXJlZ2VuZXJhdGlvbi5tZGApIGlzIGEKICByZWNvbnN0cnVjdGlvbiwgbm90IHRoZSBvcmlnaW5hbCB0ZXN0IHNldC4KLSBObyByZXRyYWluaW5nIHdhcyBwZXJmb3JtZWQuIFRoZSBtb2RlbCBhYm92ZSBpcyB0aGUgcHJlc2VydmVkIDIwMjEgZXhwb3J0Lgo=
+# Historical Asset Evaluation Results
+
+Date: 2026-11-04
+Method: `notebooks/02_evaluate_historical_assets.ipynb` executed end to end
+(all 3 code cells ran without errors, outputs saved in the notebook), plus
+direct inspection of the model files. Everything below was observed in that
+run; no detection accuracy is claimed, because no labeled evaluation set from
+the original project survives.
+
+## TensorFlow.js model (`demo/tfjs/zach_model/`)
+
+- `model.json` format: `graph-model`
+- generatedBy: TensorFlow 2.3.0
+- convertedBy: TensorFlow.js Converter v2.1.0
+- weightsManifest: 1 entry, 5 shard paths
+  (`group1-shard1of5.bin` … `group1-shard5of5.bin`), all present
+- 468 weight tensors declared in the manifest
+- Shard sizes: 4 shards of 4,194,304 bytes + 1 shard of 1,623,752 bytes
+  (18,400,968 bytes total, ~17.5 MiB)
+- The modern demo in `demo/tfjs` builds against these assets
+  (`npm run build` passes, verified 2026-11-04)
+
+## Historical TensorFlow artifact
+
+- `artifacts/historical-tensorflow/frozen_inference_graph_100k.pb`:
+  19,156,874 bytes (~19 MB), sha256 prefix `b4d15151337d403a`
+- Kept as provenance for the original TensorFlow Object Detection API model;
+  the browser demo uses the TFJS export above, not this file.
+
+## Reference photos
+
+- `demo/tfjs/static/img_2444.jpg`, `dozer_zach.jpg`, and `dozer2.jpg` all
+  exist and render (displayed by the notebook during the run). They document
+  the likely physical model; they are not a photogrammetry set.
+
+## What this evaluation does not establish
+
+- No mAP or accuracy figure: the original labeled dataset is lost, and the
+  regenerated composite dataset (see `docs/dataset-regeneration.md`) is a
+  reconstruction, not the original test set.
+- No retraining was performed. The model above is the preserved 2021 export.
